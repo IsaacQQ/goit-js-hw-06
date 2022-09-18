@@ -6,3 +6,8 @@ const ingredients = [
   'Herbs',
   'Condiments',
 ];
+
+const list = document.getElementById('ingredients');
+
+ingredients.forEach(elem => list.innerHTML += "<li>" + elem + "</li>");
+console.log(elem);
