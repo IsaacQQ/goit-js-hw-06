@@ -1,27 +1,20 @@
-let counterValue = Number = 0
+let counterValue = (Number = 0);
 
-const clickAdd = document.getElementById('counter');
-const btns = clickAdd.childNodes
-console.log(btns)
+const clickAdd = document.getElementById("counter");
+const btns = clickAdd.childNodes;
 
-let county = document.getElementById('value')
+let county = document.getElementById("value");
 
-const addy = clickAdd.firstElementChild
-console.log(addy) 
+const addy = clickAdd.firstElementChild;
 
-const decrease = clickAdd.lastElementChild
-console.log(decrease) 
+const decrease = clickAdd.lastElementChild;
 
-
-addy.addEventListener('click', onClick)
+addy.addEventListener("click", onClick);
 function onClick() {
-   county.textContent = counterValue -= 1
-
+  county.textContent = counterValue -= 1;
 }
-console.log(counterValue)
 
-
-decrease.addEventListener('click', onclick)
+decrease.addEventListener("click", onclick);
 function onclick() {
-    county.textContent = counterValue += 1
+  county.textContent = counterValue += 1;
 }
