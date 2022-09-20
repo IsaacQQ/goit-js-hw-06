@@ -9,8 +9,8 @@ let county = document.getElementById("value");
 
 // const decrease = clickAdd.lastElementChild;
 
-const addy = document.querySelector('button[data-action="decrement"]')
-const decrease = document.querySelector('button[data-action="increment"]')
+const addy = document.querySelector('button[data-action="decrement"]');
+const decrease = document.querySelector('button[data-action="increment"]');
 
 addy.addEventListener("click", onClick);
 function onClick() {
